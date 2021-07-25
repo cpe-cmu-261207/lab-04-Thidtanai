@@ -9,8 +9,8 @@ body{
     height: 100vh;
     background: linear-gradient(
         135deg,
-        #8052ec,
-        #d161ff
+        #c99045,
+        #e0e0ba
     );
 }
 .container{
@@ -42,12 +42,12 @@ body{
     position: relative;
     border-radius: 5px;
 }
-#newtask input:focus{
+#addinglist input:focus{
     outline: none;
-    border-color: #8052ec;
+    border-color: #564779;
 }
 
-#newtask button{
+#addinglist button{
     position: relative;
     float: right;
     width: 20%;
@@ -56,13 +56,13 @@ body{
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: #8052ec;
+    background-color: #8d7fad;
     border: none;
     color: #ffffff;
     cursor: pointer;
     outline: none;
 }
-#tasks{
+#texts{
     background-color: #ffffff;
     padding: 30px 20px;
     margin-top: 60px;
@@ -71,7 +71,7 @@ body{
     width: 100%;
     position: relative;
 }
-.task{
+.texts{
     background-color: #ffffff;
     height: 50px;
     padding: 5px 10px;
@@ -82,13 +82,13 @@ body{
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
 }
-.task span{
+.texts span{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-.task button{
-    background-color: #8052ec;
+.texts button{
+    background-color: #8576a7;
     color: #ffffff;
     height: 100%;
     width: 40px;
