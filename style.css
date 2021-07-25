@@ -13,6 +13,16 @@ body{
         #e0e0ba
     );
 }
+h1{
+    font-size: 100px;
+}
+.Header{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 50%;
+    padding: 30px 40px;
+}
 .container{
     width: 40%;
     min-width: 450px;
@@ -44,7 +54,7 @@ body{
 }
 #addinglist input:focus{
     outline: none;
-    border-color: #564779;
+    border-color: #d84747;
 }
 
 #addinglist button{
@@ -56,7 +66,7 @@ body{
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: #8d7fad;
+    background-color: #db9d57;
     border: none;
     color: #ffffff;
     cursor: pointer;
@@ -88,7 +98,7 @@ body{
     font-weight: 400;
 }
 .texts button{
-    background-color: #8576a7;
+    background-color: #b47744;
     color: #ffffff;
     height: 100%;
     width: 40px;
